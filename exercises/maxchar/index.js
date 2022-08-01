@@ -14,7 +14,7 @@ function maxChar(str) {
 
   for (char of str) {
     if (objStr[char]) {
-      objStr[char] += 1;
+      objStr[char]++;
 
       if (objStr[char] > maxChar) {
         maxChar = objStr[char];

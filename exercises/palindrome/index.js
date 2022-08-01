@@ -1,3 +1,5 @@
+/** @format */
+
 // --- Directions
 // Given a string, return true if the string is a palindrome
 // or false if it is not.  Palindromes are strings that
@@ -8,5 +10,7 @@
 //   palindrome("abcdefg") === false
 
 function palindrome(str) {}
+
+const check = palindrome('abxba');
 
 module.exports = palindrome;
